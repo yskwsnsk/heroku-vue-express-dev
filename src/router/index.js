@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import HelloWorld from '@/components/HelloWorld'
 import Top from '@/components/Top'
+import Test from '@/components/Test'
 
 Vue.use(VueRouter)
 
@@ -21,14 +22,19 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
+    path: '/',
+    name: 'Top',
+    component: Top
+  },
+  {
     path: '/hello',
     name: 'HelloWorld',
     component: HelloWorld
   },
   {
-    path: '/',
-    name: 'Top',
-    component: Top
+    path: '/test',
+    name: 'Test',
+    component: Test
   }
 ]
 

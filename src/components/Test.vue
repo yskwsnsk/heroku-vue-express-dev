@@ -1,15 +1,13 @@
 <template>
-  <div class="top">
+  <div class="Test">
     <h1>{{ msg }}</h1>
-    <h3>Top Page</h3>
-    <br/>
-    <a href="/test">test</a>
+    <h3>Test</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Top',
+  name: 'Test',
   props: {
     msg: String
   }

@@ -3,7 +3,9 @@
     <h1>{{ msg }}</h1>
     <h3>Top Page</h3>
     <br/>
-    <a href="/test">test</a>
+    <a href="/test">Test</a>
+    <br/>
+    <a href="/credit">Credit Card Form</a>
   </div>
 </template>
 

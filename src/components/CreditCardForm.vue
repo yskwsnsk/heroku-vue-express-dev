@@ -1,13 +1,13 @@
 <template>
-  <div class="test">
+  <div class="credit">
     <h1>{{ msg }}</h1>
-    <h3>Test</h3>
+    <h3>Credit Card Form</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Test',
+  name: 'CreditCardForm',
   props: {
     msg: String
   }

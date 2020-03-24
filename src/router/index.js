@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import HelloWorld from '@/components/HelloWorld'
 import Top from '@/components/Top'
 import Test from '@/components/Test'
+import CreditCardForm from '@/components/CreditCardForm'
 
 Vue.use(VueRouter)
 
@@ -35,6 +36,11 @@ const routes = [
     path: '/test',
     name: 'Test',
     component: Test
+  },
+  {
+    path: '/credit',
+    name: 'CreditCardForm',
+    component: CreditCardForm
   }
 ]
 
